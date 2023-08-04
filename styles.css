@@ -1,0 +1,455 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background-color: #6e3d3d;
+  color: #fff;
+  padding: 20px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  margin-right: 15px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: #c49595;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+  text-align: justify; /* Justify the text in the main content sections */
+}
+
+.hero {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #ad8383;
+}
+
+.hero h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.image-container {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.image-container img {
+  max-width: 50%;
+  height: auto;
+}
+
+.video-container {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  max-width: 8000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.testimonials {
+  background-color: #ad8383;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.testimonial-card {
+  background-color: rgb(128, 88, 185);
+  max-width: 600px;
+  margin: 0 auto 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.testimonial-card:nth-child(odd) {
+  background-color: #f58634; /* Different color for odd-numbered testimonials */
+}
+
+.testimonial-card img {
+  max-width: 200px;
+  border-radius: 70%;
+}
+
+.testimonial-card h3 {
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.testimonial-card p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.business-growth {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.business-growth h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Products page specific styles */
+.products {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.products h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.products h3 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.products img {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px; /* Center the images horizontally */
+  border: 5px solid #ccc;
+  border-radius: 5px;
+}
+
+.products p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Styling for the CTA buttons on the product page */
+.cta-button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.cta-button:hover {
+  background-color: #555;
+}
+
+/* Contact page specific styles */
+.contact {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #8d6969;
+  border-radius: 5px;
+}
+
+.contact button {
+  background-color: #333;
+  color: #b88585;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #555;
+}
+
+.contact-info {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.contact-info h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* About Us page specific styles */
+.about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about h3,
+.about h4,
+.about h5,
+.about h6 { 
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.team-member-card {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #020101;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.team-member-card img {
+  max-width: 100px;
+  border-radius: 50%;
+}
+
+/* Additional CSS for rectangle display and identical image sizes */
+.team-member-card {
+  width: 200px; /* Set a fixed width for the team member cards */
+  height: 300px;
+  background-color: #ad8383; /* Set a fixed height for the team member cards */
+}
+
+.team-member-card img {
+  width: 100px; /* Set a fixed width for the team member images */
+  height: 100px; /* Set a fixed height for the team member images */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+  border-radius: 50%;
+}
+
+/* CSS for different rectangular boxes for each product */
+.product-container {
+  padding: 20px; /* Adjust the value as needed for the desired padding */
+  background-color: #009797; /* Replace with your desired background color */
+  border: 2px solid #ccc; /* Border style */
+  border-radius: 10px; /* Adjust the value to control the roundness of the corners */
+  margin-bottom: 20px; /* Add some space between each product container */
+}
+
+/* Optional: Add some additional styling to the product containers */
+.product-container h3 {
+  margin-top: 10px;
+}
+
+.product-container img {
+  max-width: 60%;
+  max-height: 60%;
+}
+
+
+/*container map and form */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-form {
+  flex: 1.5; /* Adjust the flex value to make the contact form container larger */
+  padding: 40px;
+  background-color: #ad8383;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-right: 40px;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #7a6e6e;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #5fc8c6;
+  color: #968a8a;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #4ca8a6;
+}
+
+.map-container {
+  flex: 1; /* Adjust the flex value to make the map container larger */
+  padding: 40px;
+  background-color: #b38e8e;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-left: 40px;
+}
+
+/* Additional styling for the map (if needed) */
+.map-container iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+  border-radius: 5px;
+}
+
+
+/* Add this CSS to style the search bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.search-bar form {
+  display: flex;
+}
+
+.search-bar input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+  background-color: #5fc8c6;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+/* Adjust the position of the search bar */
+.search-bar {
+  margin-left: auto; /* Moves the search bar to the right */
+  margin-right: 20px; /* Adds some spacing from the navigation */
+  z-index: 1; /* Ensure the search bar stays on top of other elements */
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #992d2d;
+  color: #fff;
+}
